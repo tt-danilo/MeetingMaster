@@ -1,0 +1,16 @@
+.workspace {
+  background: #fff;
+  border: 1px solid rgba(62,57,53,.28);
+  border-radius: 4px;
+}
+
+.start-meeting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > .button-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

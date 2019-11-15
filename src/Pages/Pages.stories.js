@@ -11,7 +11,18 @@ export default { title: 'Pages' };
 
 export const login = () => <Login />;
 
-export const workspace = () => <Workspace />;
+export const workspace = () => {
+  return(
+    <div>
+      <Workspace>
+        <Login />
+      </Workspace>
+      <Workspace>
+        <StartMeeting />
+      </Workspace>
+    </div>
+  )
+};
 
 export const editMeeting = () => <EditMeeting />;
 

@@ -1,9 +1,10 @@
 import React from 'react';
+import './styles.scss';
 
-function Workspace() {
+function Workspace(props) {
   return (
-    <div>
-      <h1>Workspace</h1>
+    <div className='workspace'>
+      {props.children}
     </div>
   );
 }
